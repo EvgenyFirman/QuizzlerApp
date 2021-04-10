@@ -42,7 +42,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="optionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Gi-kq-dic"/>
+                                            <action selector="optionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N7I-ER-XCN"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbn-vQ-GyC">
@@ -56,7 +56,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="optionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6YB-pH-3Gg"/>
+                                            <action selector="optionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xvX-or-ldD"/>
                                         </connections>
                                     </button>
                                     <progressView opaque="NO" contentMode="scaleToFill" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TXm-qh-7Xg">
@@ -85,6 +85,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="buttonFalse" destination="tbn-vQ-GyC" id="wiP-77-jzJ"/>
+                        <outlet property="buttonTrue" destination="oVw-Hl-IRe" id="nb4-iO-c7V"/>
                         <outlet property="progressBar" destination="TXm-qh-7Xg" id="C2I-mk-uUj"/>
                         <outlet property="titleLabel" destination="rSI-li-mhO" id="vow-4K-9qH"/>
                     </connections>
